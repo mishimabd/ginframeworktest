@@ -9,7 +9,7 @@ func main() {
 
 	server.GET("/test", func(ctx *gin.Context) {
 		ctx.JSON(200, gin.H{
-			"message": "OK!!!",
+			"nigger": "OK!!!",
 		})
 	})
 
