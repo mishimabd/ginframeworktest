@@ -12,7 +12,7 @@ type videoService struct {
 
 func (v videoService) Save(video entity.Video) entity.Video {
 	v.videos = append(v.videos, video)
-	return v.videos
+	return video
 }
 
 func (v videoService) FindAll() []entity.Video {
